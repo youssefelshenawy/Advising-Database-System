@@ -11,7 +11,7 @@ namespace databaseproject
 {
 
 
-    public partial class StudentHome
+    public partial class AdminHome2
     {
 
         /// <summary>
@@ -24,156 +24,210 @@ namespace databaseproject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// part1c control.
+        /// GoBackButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1c;
+        protected global::System.Web.UI.WebControls.Button GoBackButton;
 
         /// <summary>
-        /// part1d control.
+        /// courseToBeDeletedTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1d;
+        protected global::System.Web.UI.WebControls.TextBox courseToBeDeletedTextBox;
 
         /// <summary>
-        /// part1e control.
+        /// courseToBeDeletedButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1e;
+        protected global::System.Web.UI.WebControls.Button courseToBeDeletedButton;
 
         /// <summary>
-        /// part1f control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1f;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// part1g control.
+        /// currentSemesterTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1g;
+        protected global::System.Web.UI.WebControls.TextBox currentSemesterTextBox;
 
         /// <summary>
-        /// part1h control.
+        /// currentSemesterButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1h;
+        protected global::System.Web.UI.WebControls.Button currentSemesterButton;
 
         /// <summary>
-        /// part1i control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part1i;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// part2a control.
+        /// TypeOfMakeupTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2a;
+        protected global::System.Web.UI.WebControls.TextBox TypeOfMakeupTextBox;
 
         /// <summary>
-        /// part2b control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2b;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// part2c control.
+        /// DateTimeOfMakeupTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2c;
+        protected global::System.Web.UI.WebControls.TextBox DateTimeOfMakeupTextBox;
 
         /// <summary>
-        /// part2d control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2d;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// part2e control.
+        /// courseIDTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2e;
+        protected global::System.Web.UI.WebControls.TextBox courseIDTextBox;
 
         /// <summary>
-        /// part2f control.
+        /// AddMakeupButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2f;
+        protected global::System.Web.UI.WebControls.Button AddMakeupButton;
 
         /// <summary>
-        /// part2g control.
+        /// ViewAllPaymentsButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2g;
+        protected global::System.Web.UI.WebControls.Button ViewAllPaymentsButton;
 
         /// <summary>
-        /// part2h control.
+        /// IssueInstallmentsTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2h;
+        protected global::System.Web.UI.WebControls.TextBox IssueInstallmentsTextBox;
 
         /// <summary>
-        /// part2i control.
+        /// IssueInstallmentsButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button part2i;
+        protected global::System.Web.UI.WebControls.Button IssueInstallmentsButton;
 
         /// <summary>
-        /// Button1 control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// UpdateStudentStatusTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox UpdateStudentStatusTextBox;
+
+        /// <summary>
+        /// UpdateStudentStatusButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UpdateStudentStatusButton;
+
+        /// <summary>
+        /// ViewActiveStudentsButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ViewActiveStudentsButton;
+
+        /// <summary>
+        /// ViewAllGradPlansButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ViewAllGradPlansButton;
+
+        /// <summary>
+        /// ViewAllTranscriptsButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ViewAllTranscriptsButton;
+
+        /// <summary>
+        /// ViewAllSemesterButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ViewAllSemesterButton;
     }
 }

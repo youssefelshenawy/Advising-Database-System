@@ -68,6 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminHome.aspx" />
+    <Content Include="AdminHome2.aspx" />
+    <Content Include="AdminViewAllActiveStudents.aspx" />
+    <Content Include="AdminViewAllPayments.aspx" />
+    <Content Include="AdminViewAllSemester.aspx" />
+    <Content Include="AdminViewAllTranscripts.aspx" />
+    <Content Include="AdminViewGraduationPlans.aspx" />
     <Content Include="AdvisorAcceptorrejectch.aspx" />
     <Content Include="AdvisorAcceptorrejectcourse.aspx" />
     <Content Include="Advisordeletecoursefromgraduationplan.aspx" />
@@ -81,10 +87,30 @@
     <Content Include="AdvisorInsertGraduationPlan.aspx" />
     <Content Include="Advisorupdategraduationdate.aspx" />
     <Content Include="MainLogin.aspx" />
+    <Content Include="AdvisorView_all_requests.aspx" />
     <Content Include="StudentHome.aspx" />
     <Content Include="StudentLogin.aspx" />
+    <Content Include="StudentPart1c.aspx" />
+    <Content Include="StudentPart1d.aspx" />
+    <Content Include="StudentPart1e.aspx" />
+    <Content Include="StudentPart1f.aspx" />
+    <Content Include="StudentPart1g.aspx" />
+    <Content Include="StudentPart1h.aspx" />
+    <Content Include="StudentPart1i.aspx" />
+    <Content Include="StudentPart2a.aspx" />
+    <Content Include="StudentPart2b.aspx" />
+    <Content Include="StudentPart2c.aspx" />
+    <Content Include="StudentPart2d.aspx" />
+    <Content Include="StudentPart2d2.aspx" />
+    <Content Include="StudentPart2e.aspx" />
+    <Content Include="StudentPart2e2.aspx" />
+    <Content Include="StudentPart2f.aspx" />
+    <Content Include="StudentPart2g.aspx" />
+    <Content Include="StudentPart2g2.aspx" />
+    <Content Include="StudentPart2h.aspx" />
+    <Content Include="StudentPart2h2.aspx" />
+    <Content Include="StudentPart2i.aspx" />
     <Content Include="StudentRegisteration.aspx" />
-    <Content Include="AdvisorView_all_requests.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +120,48 @@
     </Compile>
     <Compile Include="AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome2.aspx.cs">
+      <DependentUpon>AdminHome2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome2.aspx.designer.cs">
+      <DependentUpon>AdminHome2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewAllActiveStudents.aspx.cs">
+      <DependentUpon>AdminViewAllActiveStudents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewAllActiveStudents.aspx.designer.cs">
+      <DependentUpon>AdminViewAllActiveStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewAllPayments.aspx.cs">
+      <DependentUpon>AdminViewAllPayments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewAllPayments.aspx.designer.cs">
+      <DependentUpon>AdminViewAllPayments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewAllSemester.aspx.cs">
+      <DependentUpon>AdminViewAllSemester.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewAllSemester.aspx.designer.cs">
+      <DependentUpon>AdminViewAllSemester.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewAllTranscripts.aspx.cs">
+      <DependentUpon>AdminViewAllTranscripts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewAllTranscripts.aspx.designer.cs">
+      <DependentUpon>AdminViewAllTranscripts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewGraduationPlans.aspx.cs">
+      <DependentUpon>AdminViewGraduationPlans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewGraduationPlans.aspx.designer.cs">
+      <DependentUpon>AdminViewGraduationPlans.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdvisorAcceptorrejectch.aspx.cs">
       <DependentUpon>AdvisorAcceptorrejectch.aspx</DependentUpon>
@@ -187,6 +255,13 @@
       <DependentUpon>MainLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdvisorView_all_requests.aspx.cs">
+      <DependentUpon>AdvisorView_all_requests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvisorView_all_requests.aspx.designer.cs">
+      <DependentUpon>AdvisorView_all_requests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentHome.aspx.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,19 +276,152 @@
     <Compile Include="StudentLogin.aspx.designer.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentPart1c.aspx.cs">
+      <DependentUpon>StudentPart1c.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1c.aspx.designer.cs">
+      <DependentUpon>StudentPart1c.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1d.aspx.cs">
+      <DependentUpon>StudentPart1d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1d.aspx.designer.cs">
+      <DependentUpon>StudentPart1d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1e.aspx.cs">
+      <DependentUpon>StudentPart1e.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1e.aspx.designer.cs">
+      <DependentUpon>StudentPart1e.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1f.aspx.cs">
+      <DependentUpon>StudentPart1f.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1f.aspx.designer.cs">
+      <DependentUpon>StudentPart1f.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1g.aspx.cs">
+      <DependentUpon>StudentPart1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1g.aspx.designer.cs">
+      <DependentUpon>StudentPart1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1h.aspx.cs">
+      <DependentUpon>StudentPart1h.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1h.aspx.designer.cs">
+      <DependentUpon>StudentPart1h.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart1i.aspx.cs">
+      <DependentUpon>StudentPart1i.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart1i.aspx.designer.cs">
+      <DependentUpon>StudentPart1i.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2a.aspx.cs">
+      <DependentUpon>StudentPart2a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2a.aspx.designer.cs">
+      <DependentUpon>StudentPart2a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2b.aspx.cs">
+      <DependentUpon>StudentPart2b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2b.aspx.designer.cs">
+      <DependentUpon>StudentPart2b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2c.aspx.cs">
+      <DependentUpon>StudentPart2c.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2c.aspx.designer.cs">
+      <DependentUpon>StudentPart2c.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2d.aspx.cs">
+      <DependentUpon>StudentPart2d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2d.aspx.designer.cs">
+      <DependentUpon>StudentPart2d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2d2.aspx.cs">
+      <DependentUpon>StudentPart2d2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2d2.aspx.designer.cs">
+      <DependentUpon>StudentPart2d2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2e.aspx.cs">
+      <DependentUpon>StudentPart2e.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2e.aspx.designer.cs">
+      <DependentUpon>StudentPart2e.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2e2.aspx.cs">
+      <DependentUpon>StudentPart2e2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2e2.aspx.designer.cs">
+      <DependentUpon>StudentPart2e2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2f.aspx.cs">
+      <DependentUpon>StudentPart2f.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2f.aspx.designer.cs">
+      <DependentUpon>StudentPart2f.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2g.aspx.cs">
+      <DependentUpon>StudentPart2g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2g.aspx.designer.cs">
+      <DependentUpon>StudentPart2g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2g2.aspx.cs">
+      <DependentUpon>StudentPart2g2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2g2.aspx.designer.cs">
+      <DependentUpon>StudentPart2g2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2h.aspx.cs">
+      <DependentUpon>StudentPart2h.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2h.aspx.designer.cs">
+      <DependentUpon>StudentPart2h.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2h2.aspx.cs">
+      <DependentUpon>StudentPart2h2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2h2.aspx.designer.cs">
+      <DependentUpon>StudentPart2h2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPart2i.aspx.cs">
+      <DependentUpon>StudentPart2i.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPart2i.aspx.designer.cs">
+      <DependentUpon>StudentPart2i.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentRegisteration.aspx.cs">
       <DependentUpon>StudentRegisteration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentRegisteration.aspx.designer.cs">
       <DependentUpon>StudentRegisteration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdvisorView_all_requests.aspx.cs">
-      <DependentUpon>AdvisorView_all_requests.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdvisorView_all_requests.aspx.designer.cs">
-      <DependentUpon>AdvisorView_all_requests.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -18,38 +18,42 @@ namespace databaseproject
 
         protected void FN_StudentLogin(object sender, EventArgs e)
         {
-            string connStr = WebConfigurationManager.ConnectionStrings["DBAdvising_System"].ToString();
-            SqlConnection conn = new SqlConnection(connStr);
-
-            int id = Int32.Parse(StudentIdTextBox.Text);
-            string password = StudentpasswordTextBox.Text;
-
-            if (id == 0 & password == "admin")
+            try
             {
-                Response.Redirect("AdminHome.aspx");
-            }
-            else
-            {
+                string connStr = WebConfigurationManager.ConnectionStrings["DBAdvising_System"].ToString();
+                SqlConnection conn = new SqlConnection(connStr);
 
+                int id = Int32.Parse(StudentIdTextBox.Text);
+                string password = StudentpasswordTextBox.Text;
 
-                SqlCommand loginproc = new SqlCommand("SELECT dbo.FN_StudentLogin(@Student_id,@password)", conn);
-                loginproc.Parameters.AddWithValue("@Student_id", id);
-                loginproc.Parameters.AddWithValue("@password", password);
-
-                conn.Open();
-                object result = loginproc.ExecuteScalar();
-                conn.Close();
-
-                if (Convert.ToInt32(result) == 0)
+                if (id == 0 & password == "admin")
                 {
-                    Response.Write("Invalid Login");
+                    Response.Redirect("AdminHome.aspx");
                 }
                 else
                 {
 
-                    Response.Redirect("StudentHome.aspx");
+
+                    SqlCommand loginproc = new SqlCommand("SELECT dbo.FN_StudentLogin(@Student_id,@password)", conn);
+                    loginproc.Parameters.AddWithValue("@Student_id", id);
+                    loginproc.Parameters.AddWithValue("@password", password);
+
+                    conn.Open();
+                    object result = loginproc.ExecuteScalar();
+                    conn.Close();
+
+                    if (Convert.ToInt32(result) == 0)
+                    {
+                        Response.Write("Invalid Login");
+                    }
+                    else
+                    {
+                        Session["user"] = id;
+                        Response.Redirect("StudentHome.aspx");
+                    }
                 }
             }
+            catch (Exception ex) { Response.Write("Fill all fields, and make sure the data are in right type"); }
         }
 
        
